@@ -26,8 +26,8 @@ export default props => {
     
     return(
         <View>
-            <TextInput placeholder="insira o primeiro numero" onChangeText={setValor1}/><br></br>
-            <TextInput placeholder="insira o segundo numero" onChangeText={setValor2}/>
+           <TextInput keyboardType="numeric" placeholder="insira o primeiro numero" onChangeText={setValor1}/><br></br>
+            <TextInput keyboardType="numeric" placeholder="insira o segundo numero" onChangeText={setValor2}/>
             <text><br></br>Selecione a operação:</text>
             
             <br></br><Button color='#5f9ea0' title="+" onPress={Soma} />
